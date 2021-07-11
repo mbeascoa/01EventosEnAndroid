@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduzca un número:" />
+
+    <EditText
+
+        android:id="@+id/caja1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"/>
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Número 2" />
+
+
+    <EditText
+        android:id="@+id/caja2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background" />
+
+    <Button
+        android:id="@+id/btnsumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sumarNumeros"
+        android:text="Resultado" />
+
+
+    <TextView
+        android:id="@+id/label3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textobotonsumar" />
+
+
+    <EditText
+        android:id="@+id/resultado"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background" />
+</LinearLayout >

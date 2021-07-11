@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">01EventosEnAndroid</string>
+    <string name="textobotonsumar">SUMAR NUMEROS</string>
+    <string name="result">Resultado de la operación</string>
+</resources>
